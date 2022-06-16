@@ -41,6 +41,7 @@ export interface IMapProps extends google.maps.MapOptions {
   center?: google.maps.LatLngLiteral
 
   visible?: boolean
+  children: React.ReactNode
 
   onReady?: mapEventHandler
   onClick?: mapEventHandler
