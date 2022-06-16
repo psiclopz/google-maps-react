@@ -104,8 +104,9 @@ export interface IInfoWindowProps extends Partial<google.maps.InfoWindowOptions>
   visible?: boolean
   onClose?: infoWindowEventHandler;
   onOpen?: infoWindowEventHandler;
+  children: React.ReactNode
 }
 
-export class InfoWindow extends React.ComponentWithChildren<IInfoWindowProps, any> {
+export class InfoWindow extends React.Component<IInfoWindowProps, any> {
 
 }
